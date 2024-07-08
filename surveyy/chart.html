@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<style>
+    .chart {
+      display: flex;
+      gap: 230px;
+      padding-top: 2em;
+      margin-left: 80px;
+    }
+
+    #c2 {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hh {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    html {
+      background: wheat;
+    }
+
+    header {
+      display: grid;
+      grid-template: 1fr / 1.2fr 0.86fr;
+    }
+
+    header h2 {
+      font-size: 2em;
+      margin-left: 180px;
+    }
+</style>
+</head>
+
+<body>
+<h2 class="hh">Health Summary</h2>
+<header>
+<h2>Health Report</h2>
+<h2>Report</h2>
+</header>
+<div class="chart">
+<canvas id="myChart" style="max-width:500px; height: 450px;" id="c1"></canvas>
+<canvas id="mychart" style="max-width:650px; height: 450px;" id="c2"></canvas>
+</div>
+<script src="chart.js"></script>
+</body>
+</html>
